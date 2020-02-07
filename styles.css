@@ -1,0 +1,24 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+#title{
+	height: 25cm
+	width: 5cm;
+	font-size: 200%;
+	text-align: center;
+}
+#money{
+	height: 25cm
+	width: 5cm;
+	margin: center;
+	text-align: center;
+}
+#selectBox{
+	margin-left: 250px;
+}

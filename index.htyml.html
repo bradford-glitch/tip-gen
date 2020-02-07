@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+	<title>Tip Gen</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<p id="title"> Tip Generator </p>
+<div id ="money">Tab or Receipt Total (4-30):</label>
+<input type="number" id="money" name="money" 
+       minlength="6" maxlength="15"></div>
+<select id="selectBox">
+	<option value="5%">5% of the total amount of recept</option>
+	<option value="10%">10% of the total amount of recept</option>
+	<option value="15%">15% of the total amount of recept</option>
+	<option value="20%">20% of the total amount of recept</option>
+</select>
+<button type="button" id="Generate" onclick="calculatetip()">Generate</button>
+<script type="text/javascript"> document.getElementById(total).innerHTML = "Here is the Tip Total"</script>
+<div id="Endtip">
+<span id="Tip">$0.00</span>
+</div>
+</body>
+
+</html>
